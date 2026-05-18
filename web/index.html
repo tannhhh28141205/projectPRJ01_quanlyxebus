@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanoi Bus - Quản lý xe buýt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark app-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hanoi Bus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#homeNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="homeNav">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="tim-tuyen">Tra cứu tuyến</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mua-ve">Mua vé</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tin-tuc">Tin tức</a></li>
+                    <li class="nav-item"><a class="nav-link" href="thong-bao">Thông báo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-wrap">
+        <section class="hero">
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <span class="pill">Hệ thống vận hành xe buýt đô thị</span>
+                    <h1>Di chuyển thuận tiện, quản lý tuyến xe rõ ràng, trải nghiệm hiện đại.</h1>
+                    <p>
+                        Giao diện mới tập trung vào tra cứu tuyến, đặt vé, theo dõi lịch trình, tin tức và thông báo
+                        để hành khách và nhân sự vận hành làm việc trên cùng một nền tảng.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="tim-tuyen">Tra cứu tuyến ngay</a>
+                        <a class="btn btn-outline-light" href="login">Vào hệ thống</a>
+                    </div>
+                </div>
+                <div class="hero-side">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <p class="metric-label">Điểm nổi bật</p>
+                                <h3 class="panel-title">Tập trung vào vận hành thực tế</h3>
+                            </div>
+                        </div>
+                        <div class="kpi">
+                            <strong>Tra cứu tuyến</strong>
+                            <span>Chọn điểm đi và điểm đến để tìm tuyến phù hợp.</span>
+                        </div>
+                        <hr style="border-color: rgba(255,255,255,0.08);">
+                        <div class="kpi">
+                            <strong>Mua vé nhanh</strong>
+                            <span>Đăng ký vé lượt, vé tháng và vé theo đối tượng.</span>
+                        </div>
+                        <hr style="border-color: rgba(255,255,255,0.08);">
+                        <div class="kpi">
+                            <strong>Dashboard cho nhân sự</strong>
+                            <span>Quản lý xe, tuyến, lịch trình, báo cáo và kiểm soát vé.</span>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <p class="metric-label">Truy cập nhanh</p>
+                                <h3 class="panel-title">Các khu vực chính</h3>
+                            </div>
+                        </div>
+                        <div class="stack">
+                            <a class="status-chip" href="tim-tuyen">Tra cứu tuyến</a>
+                            <a class="status-chip" href="mua-ve">Mua vé</a>
+                            <a class="status-chip" href="tin-tuc">Tin tức & sự kiện</a>
+                            <a class="status-chip" href="thong-bao">Thông báo cá nhân</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 22px;" class="grid-two">
+            <div class="panel">
+                <h2 class="section-title">Dành cho hành khách</h2>
+                <p class="section-subtitle">Tra cứu tuyến, xem tin tức, mua vé và theo dõi lịch sử vé.</p>
+                <div class="stack" style="margin-top: 16px;">
+                    <div class="status-chip">Tìm tuyến theo trạm</div>
+                    <div class="status-chip">Mua vé lượt hoặc vé tháng</div>
+                    <div class="status-chip">Xem lịch sử và trạng thái thanh toán</div>
+                </div>
+            </div>
+            <div class="panel">
+                <h2 class="section-title">Dành cho vận hành</h2>
+                <p class="section-subtitle">Quản lý người dùng, xe, lịch trình, báo cáo và xác nhận vé.</p>
+                <div class="stack" style="margin-top: 16px;">
+                    <div class="status-chip">Admin quản lý tài khoản</div>
+                    <div class="status-chip">Điều phối viên tạo chuyến</div>
+                    <div class="status-chip">Tài xế cập nhật trạng thái chuyến</div>
+                    <div class="status-chip">Phụ xe kiểm tra và bán vé</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
